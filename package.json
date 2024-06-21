@@ -1,0 +1,15 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "build": "npx tailwindcss -i ./styles.css -o ./tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "Andre Rühmling",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
